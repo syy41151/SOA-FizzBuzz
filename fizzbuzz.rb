@@ -10,8 +10,7 @@ def fizzbuzz(a)
     return FIZZBUZZ   
 end
 FIZZBUZZ = []
-#puts "puts FizzBuzz number?"
-#number = gets.chomp
+
 print fizzbuzz(5){}
 print fizzbuzz(20){|x| print "#{x}-"}
 print fizzbuzz(5){}.select{|x| x.is_a? Fixnum}
